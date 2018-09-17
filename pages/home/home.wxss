@@ -1,0 +1,106 @@
+/* pages/home/home.wxss */
+
+.sear_box {
+  height: 150rpx;
+  background-color: #aa7a53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sear_bg {
+  width: 95%;
+  height: 70rpx;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10rpx;
+}
+
+.sear_input {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid black; */
+  color: lightgray;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+#my_carousel{
+  width: 100%;
+}
+
+.carousel_box{
+  /* height: 340rpx; */
+  width: 100%;
+}
+.carousel_box image{
+  width: 100%;
+  height: 100%;
+}
+/* #carousel_box3{
+  height: 300rpx;
+} */
+.button_4_box{
+  width: 100%;
+  height: 180rpx;
+  background-color: #fafafa;
+  margin-bottom: 30rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40rpx 0;
+}
+.button_item{
+  width: 20%;
+  height: 100%;
+  text-align: center;
+}
+.button_item image{
+  width: 100%;
+  height: 80%
+}
+.button_item text{
+  font-size: 0.6rem;
+}
+.spjx_box{
+  padding: 20rpx;
+}
+.spjx_title{
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 0.8rem;
+  border-bottom: 1px solid lightgrey;
+}
+.spjx_list{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.spjx_list_item{
+  width: 50%;
+  border-bottom: 1px solid lightgray;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.spjx_list_item image{
+  width: 100%;
+  height: 50vw;
+}
+.spjx_item_title{
+  font-size: 0.6rem;
+
+}
+.price_and_add{
+  width: 100%;
+  height: 60rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price_and_add text{
+  font-size: 0.8rem;
+}
+.add_icon{
+  transform:rotate(45deg);
+}
